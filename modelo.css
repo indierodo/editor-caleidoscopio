@@ -1,0 +1,76 @@
+body{
+  margin: 5vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em
+}
+
+.titulo {
+  font-size: 2.5em;
+  font-weight: normal;
+  font-style: italic;
+  text-align: right;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: normal;
+  text-align: right;
+}
+
+.linea {
+  border: 4px solid gray;
+}
+
+.author {
+  text-transform: capitalize;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.institutioncountry {
+  text-align: right;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-variant: small-caps;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+}
+
+.palabras-clave {
+  text-indent: 1cm;
+}
+
+.spacer {
+  margin-top: 10vh;
+}
+
+.referencia {
+  margin-left: 1cm;
+  text-indent: -1cm;
+  margin-bottom: 0cm;
+  break-before: auto;
+}
+
+.notas {
+  font-size: 0.8em;
+  line-height: 150%;
+}
+
+.notas sup {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.center, .center p {
+  text-align: center;
+}
