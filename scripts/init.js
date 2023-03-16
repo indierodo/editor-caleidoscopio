@@ -12,7 +12,7 @@ tinymce.init({
     'bullist numlist outdent indent | link image | print preview media fullscreen | ' +
     'forecolor backcolor | help',
   menubar: 'favs file edit view insert format tools table help',
-  content_css: '/modelo.css',
+  content_css: 'modelo.css',
   setup: function(ed) {
     ed.on("init", function(ed) {
       const request = new XMLHttpRequest();
